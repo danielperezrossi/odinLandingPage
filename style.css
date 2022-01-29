@@ -111,7 +111,7 @@ a {
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
-	gap: 10em;
+	gap: 5em;
 }
 
 .section2 .infoBlock img {
@@ -125,6 +125,7 @@ a {
 
 .section2 .infoBlock .text {
 	text-align: center;
+	margin-top: 1em;
 	max-width: 200px;
 	max-height: 200px;
 }
@@ -139,7 +140,7 @@ a {
 	font-style: italic;
 	align-items: center;
 	justify-content: space-between;
-	padding: 100px;
+	padding: 125px;
 }
 
 .section3 .author {
@@ -153,14 +154,48 @@ a {
 .section4 {
 	display: flex;
 	flex-direction: column;
-	background-color: white;
-	color: #1f2937;
-	font-size: 36px;
-	font-weight: 100;
-	font-style: italic;
+	background-color: #3882f6;
+	color: white;
 	align-items: center;
 	justify-content: space-between;
 	padding: 30px;
+	margin: 50px;
+}
+
+.section4 .card {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-content: space-between;
+	gap: 10em;
+}
+
+.section4 .text {
+	flex: 1;
+}
+
+.section4 .title {
+	font-size: 24px;
+	font-weight: bolder;
+	color: #f9faf8;
+	margin-bottom: 0.25em;
+}
+
+.section4 button {
+	display: flex;
+	background-color: #3882f6;
+	color: #e5e7eb;
+	justify-content: center;
+	align-items: center;
+	font-size: large;
+	width: 200px;
+	height: 40px;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 15px;
+	border-color: white;
+	border: 2px;
+	border: solid;
 }
 
 footer {
